@@ -1,0 +1,16 @@
+PODS:
+  - eagletest2 (0.1.0)
+
+DEPENDENCIES:
+  - eagletest2 (from `../`)
+
+EXTERNAL SOURCES:
+  eagletest2:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  eagletest2: 1bf5396fb42c25b33f983066beacea21c28c78ff
+
+PODFILE CHECKSUM: 8cb7b02e8495c7e591787ac86d15d2e4e56f4e0e
+
+COCOAPODS: 1.11.0.beta.2

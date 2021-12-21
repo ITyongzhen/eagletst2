@@ -1,0 +1,6 @@
+framework module eagletest2 {
+  umbrella header "eagletest2-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,905 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0735CB6F39576C7818D018E859CA5C03 /* FUCameraAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5D4AA70C85B25694A3B8149EBAC749 /* FUCameraAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08E98A9C2EAFF4C2A8A6371D64E1F5F7 /* FUItem+createTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8B183793F9AE22DB61972C328FEBD5 /* FUItem+createTexture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A005D982C15AC4053C322452B694C7E /* UIDevice+FURenderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B7519852FDD95184AEE513B6A2333162 /* UIDevice+FURenderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1144F86A773540628EEE34E5E1986EF7 /* FUBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = 529F319FE4F8D3392135A20A5EF92799 /* FUBackground.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		119220B1F5203E098C9E4779E0CA190A /* FURenderKit快速集成文档.md in Sources */ = {isa = PBXBuildFile; fileRef = CFD184BA8A9A1C0047A261858AC380B6 /* FURenderKit快速集成文档.md */; };
+		15069BAA0A0038BE641ED3492F1909BF /* eagletest2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0F65660CFB42B7A0DD4516CDE8B1C11 /* eagletest2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B684158C3BB8FBC38C1D6C0384C9111 /* FUComicFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B489C066347B2235B8ACC9AFDF0C1C01 /* FUComicFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C3A6EC40C34679AA18C9B2C1FCBCAE2 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = B926CD5595925C3413150C61A497CD76 /* Info.plist */; };
+		2095C840A82BD44B8DE9F3BBC4F59A0A /* FUConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DE34576D4E393AF0883AAC7DEF8894 /* FUConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23C869364494A0858A8E530107893F1E /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = CCAF25C1976110F0DCEDE7D6514996AE /* module.modulemap */; };
+		25954EA33B85BF31916328D6D703D337 /* FURecordEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = C7F21765D5B75FFC16DFD7E86017C69F /* FURecordEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29A16B7DB4F37A7B8E63E931F105069D /* FUAISegment.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F1BB224E831D3F041D6D722E6DB41AD /* FUAISegment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AE393EE53C285BE002B2D779E4A3784 /* FUAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B44300956921377DDC93319C9F673CDD /* FUAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FCB26E0F8D97D1866EDF6905EFF834A /* FUQualitySticker.h in Headers */ = {isa = PBXBuildFile; fileRef = 17664F00959B12A36B7A92A80A6956E6 /* FUQualitySticker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		303D7A34829903DA819EC8FF3BD4620B /* FUInternalCameraSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 259123FBF9DF30EC7474A5E9A16B9A88 /* FUInternalCameraSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39E6C3D0CDB1934BBFC1A9F04B755672 /* FUGLDisplayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B15086BA0A07667307C1B2DD5F8F935 /* FUGLDisplayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AE3B3A8D655274DD56F0CDF514A6F25 /* FUAvatar.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF1E58270FA9CE209A9315FFFE2AD36 /* FUAvatar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B69EE0612AB45536B20B4D4C6E02D3E /* FUBeauty.h in Headers */ = {isa = PBXBuildFile; fileRef = 40CA35F3D070E6A3A132F31A2A597C62 /* FUBeauty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F3FD922803F13800F0A5C390A8D9E35 /* FUHairDefineKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A2194E2E02EEFAE757F89CC81737DDB /* FUHairDefineKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40CF98CABD1B375B3E689C2B220EBEA6 /* FUSceneCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 23333D9392A3E0E0AD20A027BBD18483 /* FUSceneCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		450C875CBC30620C83043965F2174EB1 /* FUPoster.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B86F378930EFAB9556E396B5262A638 /* FUPoster.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4647DB4F048C12E23F89EC9EFABE99B6 /* FUStickerContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 622CFB49D7E5EE6462AFB9509B3858E9 /* FUStickerContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		467612FCE096F1F14F9D21CE54A712B6 /* FURenderableObject.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0CA8BAF4C71B17914B98CF3A799265 /* FURenderableObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46A046C2076C9545107E12F27338F80E /* FUItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 9819D4C171E9986297CCEA812EE0BC70 /* FUItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		507AA14654504DA7B42BCA9043EBDBB9 /* FUMusicFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = E0B845B2FCF189DD8028087C0B452FD1 /* FUMusicFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53A19C7131623B4EBCA4BB7DAFD43A7B /* FURenderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4F957EDE17F53DA5C418CC81A7A0A5 /* FURenderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5553AF0C5E69C90C1954A87D916207EA /* FUAvatarMakeup.h in Headers */ = {isa = PBXBuildFile; fileRef = 8009BACB416EC01E00C1F2DA11E80D59 /* FUAvatarMakeup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55936367D67D4FF360ECD15CEC431C22 /* FUMakeUpChildStrengthDefineKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 019B0FB4AFF36C61D056D3321F99335C /* FUMakeUpChildStrengthDefineKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56E0E04CE6004EA101CF063E14E5838C /* FUCLIColor.h in Headers */ = {isa = PBXBuildFile; fileRef = E2278369A44EE691B5CF79C0F8500773 /* FUCLIColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5802E2D206A15201DAB99D75CBF7C4AF /* FUMakeUpTextureKey.h in Headers */ = {isa = PBXBuildFile; fileRef = B347456B2C7D62A42548C4CDFCA4B4E1 /* FUMakeUpTextureKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C2BF028BBD6FCF82A1C52A8A630250A /* FULight.h in Headers */ = {isa = PBXBuildFile; fileRef = CC6E1EAB8C0B9960B2D512D04979F849 /* FULight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C6ECEE47A049979FA85E077D1D55083 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5D474AFCF5E8C3F50F641475C708F7E0 /* FUBodyBeauty.h in Headers */ = {isa = PBXBuildFile; fileRef = F9355F61DBEA080236CE2E69392BB58F /* FUBodyBeauty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		642DE795B93B607285E46F4E3263CD0C /* Pods-eagletest2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BB167CEC718E4BF062EF1DFEC008F5 /* Pods-eagletest2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FDABB6B33B27E21880247E6DEC21BBE /* FUStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = B4667D9EA1580A1C038445F594993047 /* FUStruct.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A8B5297C5FB36ECFE2587BE6FB4D1C6 /* CNamaSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = D75D012596306A4103EF1E18E1D3FF0E /* CNamaSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AFABAB539A748A378E11C2D4481D61A /* FUMakeupValueDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FCD3DC3A18D7516CDCD37525525B9E /* FUMakeupValueDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BA650CE64B11A214A3D4149C8D1715C /* FULightMakeup.h in Headers */ = {isa = PBXBuildFile; fileRef = 16E724D12514AE1069E088554DE33D85 /* FULightMakeup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81554F29C572F3C61827018A3214FA85 /* FUNormalConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FFFF4D10B832FA9E2710AEA8B4AFA0D /* FUNormalConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81C613DC628F2CFE570BA06EB98DE789 /* FURenderIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 2098A484A8CC442D60C30AD9686297F7 /* FURenderIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		832120BD221F490FD3A864DAFEE0E462 /* FUCaptureCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F8A2677701D0DD03CEDDCF73B26E4C /* FUCaptureCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		844F8AE543BBD571D5F0F7AF3AFCD08F /* FUFaceRectInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 033ED24809634C99DD206E877D95B183 /* FUFaceRectInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		873EAF0BBE33AA18C699ED402D7C84B4 /* FUGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 14F881A2F3736DE15B791A439A9363FB /* FUGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B058DF3420C0130BAF09C30BD6C39D4 /* FUAvatarColorKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 243BA2240A303FE706CAD6EABE9D0907 /* FUAvatarColorKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C3DEF34522C941B17EE6DE0476A6CF1 /* Pods-eagletest2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F46FC01484517B73F0F711E345618 /* Pods-eagletest2_Tests-dummy.m */; };
+		8E25FD87B291D4BB9817E34D2E24B265 /* FUGroupAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C933CDDE84F40D185EC7A9EC8BBEF4F /* FUGroupAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9505826700D33E540B359CCD027EBD51 /* FUMakeup.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FC3ACE08F7EFEF27EBAE22B5706F3C3 /* FUMakeup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A8FE18BBF272F72A3EC64A9A231BFBD /* FULightMakeUpTextureKeyDefineKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 979152EA091A3CF4604591E1CED69776 /* FULightMakeUpTextureKeyDefineKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B699140AB20BE8F40DE3D31DBDC2AE0 /* UIImage+FURenderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 551E6051226E09B15BD0E68D7E03CBC8 /* UIImage+FURenderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E55A9B3F7D01AA051A9EFD38243C1A3 /* FUAnimoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D7228133A5C79954B25ADB1BE04F74A /* FUAnimoji.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E75D28D30ABA035F3E307B3291C2ABA /* FUSticker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DE07788E5CDA127C8F6415D7738C66E /* FUSticker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EAE59FAD9F29558B1F5CA30832C04F6 /* FUImageHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A7A7E1985A8CCF784EEDB472C4031DE7 /* FUImageHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A07F93F5CE1B42FC13CF55655AA05C14 /* FUDeformationKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = B0796CBA2632EBECED1D31EB0357A27F /* FUDeformationKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A16C6A3E53D44F33267A44DA1FF1E272 /* FUBodyBeautyDefineKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA7F2D257489BDE7680A3E71D8BAB5D /* FUBodyBeautyDefineKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1FA025519428AFB10CD52DBB4DF29CD /* FUEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = A16050DDD8B52758D7F9942019C482B7 /* FUEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6ECC34E3060F3B0C822235DF82BC59B /* eagletest2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E2ECF53B00A08E07C4F06A163F4BA3 /* eagletest2-dummy.m */; };
+		A8DFF524D43C5B6537106146451E30CF /* FUScene.h in Headers */ = {isa = PBXBuildFile; fileRef = B766D17EAE8E944E9B420BA69D2CA4EC /* FUScene.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8E3D65B5233EC6B6E0D6047A9A9F20E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A9D1C95927BF140BD613CC5949B18974 /* FUMakeUpColorsKey.h in Headers */ = {isa = PBXBuildFile; fileRef = C51B8C94D1AE0E948150406CB3D74B5B /* FUMakeUpColorsKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2922624E35FC1192ECA121691AD45BD /* FUSetupConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D2DA89D77959736113BA9FA968EAC85 /* FUSetupConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B64E2D4773EA5827F451843DD0A1C8FF /* CodeResources in Sources */ = {isa = PBXBuildFile; fileRef = 8CE94B799134C0F6004E8B21BCE23F52 /* CodeResources */; };
+		B7320DA0DECEF99C766E630562D0E2B8 /* FUFacepupKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = EE7AD18E6D2DBD40216600E6AFB0ACEF /* FUFacepupKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B98A71516DCE6C93E787077DFF9984C9 /* FUAIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E36BAA4A3AB20EF4B484DEA048090B /* FUAIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD391024FE0ED896444CC20DB6A785DF /* FUOvonicMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 94F597F2CF45072FEF88AF2A6D7A39EA /* FUOvonicMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1F1A022FAB08645C8DF5651EC8E7D51 /* FURenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C7BAE622CF375D6869B50762E3F21F /* FURenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C98907245F2FA5143BED1B16A0BF07E8 /* FURenderKit in Sources */ = {isa = PBXBuildFile; fileRef = 6B1C2309785760E9C223F51B16DF0F91 /* FURenderKit */; };
+		D069474E4455B6F5D36D57E00D4793E0 /* FUActionRecognition.h in Headers */ = {isa = PBXBuildFile; fileRef = F5433CC509C801A5DA1D8A1895786343 /* FUActionRecognition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5C4FFCF07A3948B655B503ED0009450 /* FUFilterDefineKey.h in Headers */ = {isa = PBXBuildFile; fileRef = B53E3B0FF0656BC7EDE823A54EE50595 /* FUFilterDefineKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7FC32B9F857C02527F3F8BCFD23F28D /* FUFacialFeatures.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD657C17A62CD2A465CAAFCF7C0BDBB /* FUFacialFeatures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8C0DB28558D026812531DE9359CC60D /* FUGreenScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FFF9392A203B76B0B844AEC5606D4A /* FUGreenScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC2B0DEBCF4D9906679387962405CD62 /* FUKeysDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A4FA2B82610A24B687DDCFD7A68486 /* FUKeysDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4BBDB8263FCDC54E7D89329238919C7 /* FUHairBeauty.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA548055C7C2453B9A920A2697AFC23 /* FUHairBeauty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6E01E252D42E4295BF7DD06F581A098 /* FUGLContext.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFC052C19930E90C9D981251549B637 /* FUGLContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E71C171A18DEAE8E61BB66AABCB47C62 /* FUParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C938C7E821E5C653AB455CFCEB257A /* FUParam.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7814F96D139878CEA2591B6C6FD8BED /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DD820306EA3586D1D1EDAFC2CE02919F /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF697824A77DC4F94612D311C9E9DD05 /* FUAIConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C109EE481FA70CC170C56BB2400B3F09 /* FUAIConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		012BB77BD02ED730D91FDAFB6F5EB1E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1513B6F90916866DDC2CD30D37FBB45B;
+			remoteInfo = eagletest2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019B0FB4AFF36C61D056D3321F99335C /* FUMakeUpChildStrengthDefineKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUMakeUpChildStrengthDefineKey.h; sourceTree = "<group>"; };
+		033ED24809634C99DD206E877D95B183 /* FUFaceRectInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUFaceRectInfo.h; sourceTree = "<group>"; };
+		07FCD3DC3A18D7516CDCD37525525B9E /* FUMakeupValueDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUMakeupValueDefine.h; sourceTree = "<group>"; };
+		0A2194E2E02EEFAE757F89CC81737DDB /* FUHairDefineKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUHairDefineKey.h; sourceTree = "<group>"; };
+		0AD657C17A62CD2A465CAAFCF7C0BDBB /* FUFacialFeatures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUFacialFeatures.h; sourceTree = "<group>"; };
+		0D7228133A5C79954B25ADB1BE04F74A /* FUAnimoji.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUAnimoji.h; sourceTree = "<group>"; };
+		0F1BB224E831D3F041D6D722E6DB41AD /* FUAISegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUAISegment.h; sourceTree = "<group>"; };
+		14F881A2F3736DE15B791A439A9363FB /* FUGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUGesture.h; sourceTree = "<group>"; };
+		16E724D12514AE1069E088554DE33D85 /* FULightMakeup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FULightMakeup.h; sourceTree = "<group>"; };
+		17664F00959B12A36B7A92A80A6956E6 /* FUQualitySticker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUQualitySticker.h; sourceTree = "<group>"; };
+		19DCEC752E66731FFE386493D2EFD815 /* Pods-eagletest2_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-eagletest2_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		19E36BAA4A3AB20EF4B484DEA048090B /* FUAIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUAIKit.h; sourceTree = "<group>"; };
+		1C6F85FC07B0E96616D14E515B113B0A /* Pods-eagletest2_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-eagletest2_Tests.modulemap"; sourceTree = "<group>"; };
+		1FFFF4D10B832FA9E2710AEA8B4AFA0D /* FUNormalConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUNormalConfig.h; sourceTree = "<group>"; };
+		2098A484A8CC442D60C30AD9686297F7 /* FURenderIO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FURenderIO.h; sourceTree = "<group>"; };
+		23333D9392A3E0E0AD20A027BBD18483 /* FUSceneCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUSceneCamera.h; sourceTree = "<group>"; };
+		243BA2240A303FE706CAD6EABE9D0907 /* FUAvatarColorKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUAvatarColorKeys.h; sourceTree = "<group>"; };
+		259123FBF9DF30EC7474A5E9A16B9A88 /* FUInternalCameraSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUInternalCameraSetting.h; sourceTree = "<group>"; };
+		3D4DAE02C09EA5F8CB793E388181818F /* Pods-eagletest2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eagletest2_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		40CA35F3D070E6A3A132F31A2A597C62 /* FUBeauty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUBeauty.h; sourceTree = "<group>"; };
+		41DED720155800039EAA5882216ACD46 /* eagletest2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = eagletest2.debug.xcconfig; sourceTree = "<group>"; };
+		42C938C7E821E5C653AB455CFCEB257A /* FUParam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUParam.h; sourceTree = "<group>"; };
+		4B86F378930EFAB9556E396B5262A638 /* FUPoster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUPoster.h; sourceTree = "<group>"; };
+		4E4F957EDE17F53DA5C418CC81A7A0A5 /* FURenderKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FURenderKit.h; sourceTree = "<group>"; };
+		4FC3ACE08F7EFEF27EBAE22B5706F3C3 /* FUMakeup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUMakeup.h; sourceTree = "<group>"; };
+		50F8A2677701D0DD03CEDDCF73B26E4C /* FUCaptureCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUCaptureCamera.h; sourceTree = "<group>"; };
+		529F319FE4F8D3392135A20A5EF92799 /* FUBackground.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUBackground.h; sourceTree = "<group>"; };
+		551E6051226E09B15BD0E68D7E03CBC8 /* UIImage+FURenderKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+FURenderKit.h"; sourceTree = "<group>"; };
+		58C7BAE622CF375D6869B50762E3F21F /* FURenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FURenderer.h; sourceTree = "<group>"; };
+		5C79F1223F3CC9272FB030C60E7C2062 /* Pods-eagletest2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-eagletest2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		622CFB49D7E5EE6462AFB9509B3858E9 /* FUStickerContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUStickerContainer.h; sourceTree = "<group>"; };
+		65B5EACE1A7478460871740B29F7C863 /* eagletest2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = eagletest2.modulemap; sourceTree = "<group>"; };
+		6B1C2309785760E9C223F51B16DF0F91 /* FURenderKit */ = {isa = PBXFileReference; includeInIndex = 1; name = FURenderKit; path = eagletest2/Classes/FURenderKit.framework/FURenderKit; sourceTree = "<group>"; };
+		6C8B183793F9AE22DB61972C328FEBD5 /* FUItem+createTexture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FUItem+createTexture.h"; sourceTree = "<group>"; };
+		6E4F46FC01484517B73F0F711E345618 /* Pods-eagletest2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-eagletest2_Tests-dummy.m"; sourceTree = "<group>"; };
+		70FFF9392A203B76B0B844AEC5606D4A /* FUGreenScreen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUGreenScreen.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B15086BA0A07667307C1B2DD5F8F935 /* FUGLDisplayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUGLDisplayView.h; sourceTree = "<group>"; };
+		7C933CDDE84F40D185EC7A9EC8BBEF4F /* FUGroupAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUGroupAnimation.h; sourceTree = "<group>"; };
+		7DE07788E5CDA127C8F6415D7738C66E /* FUSticker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUSticker.h; sourceTree = "<group>"; };
+		8009BACB416EC01E00C1F2DA11E80D59 /* FUAvatarMakeup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUAvatarMakeup.h; sourceTree = "<group>"; };
+		868EBF6153E453CAAE8E18CE16C0CEE6 /* eagletest2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "eagletest2-prefix.pch"; sourceTree = "<group>"; };
+		8AF1E58270FA9CE209A9315FFFE2AD36 /* FUAvatar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUAvatar.h; sourceTree = "<group>"; };
+		8CE94B799134C0F6004E8B21BCE23F52 /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeResources; sourceTree = "<group>"; };
+		8D2DA89D77959736113BA9FA968EAC85 /* FUSetupConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUSetupConfig.h; sourceTree = "<group>"; };
+		94F597F2CF45072FEF88AF2A6D7A39EA /* FUOvonicMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUOvonicMap.h; sourceTree = "<group>"; };
+		95E2ECF53B00A08E07C4F06A163F4BA3 /* eagletest2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "eagletest2-dummy.m"; sourceTree = "<group>"; };
+		96BB167CEC718E4BF062EF1DFEC008F5 /* Pods-eagletest2_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-eagletest2_Tests-umbrella.h"; sourceTree = "<group>"; };
+		979152EA091A3CF4604591E1CED69776 /* FULightMakeUpTextureKeyDefineKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FULightMakeUpTextureKeyDefineKey.h; sourceTree = "<group>"; };
+		9819D4C171E9986297CCEA812EE0BC70 /* FUItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUItem.h; sourceTree = "<group>"; };
+		9AA7F2D257489BDE7680A3E71D8BAB5D /* FUBodyBeautyDefineKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUBodyBeautyDefineKeys.h; sourceTree = "<group>"; };
+		9B2594994215918EE0669B61140EDF5B /* eagletest2 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = eagletest2; path = eagletest2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA548055C7C2453B9A920A2697AFC23 /* FUHairBeauty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUHairBeauty.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A16050DDD8B52758D7F9942019C482B7 /* FUEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUEnum.h; sourceTree = "<group>"; };
+		A7A7E1985A8CCF784EEDB472C4031DE7 /* FUImageHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUImageHelper.h; sourceTree = "<group>"; };
+		A7CBD969E3F3D81F8179401411A1A572 /* Pods-eagletest2_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-eagletest2_Tests-Info.plist"; sourceTree = "<group>"; };
+		B0796CBA2632EBECED1D31EB0357A27F /* FUDeformationKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUDeformationKeys.h; sourceTree = "<group>"; };
+		B0F65660CFB42B7A0DD4516CDE8B1C11 /* eagletest2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "eagletest2-umbrella.h"; sourceTree = "<group>"; };
+		B347456B2C7D62A42548C4CDFCA4B4E1 /* FUMakeUpTextureKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUMakeUpTextureKey.h; sourceTree = "<group>"; };
+		B44300956921377DDC93319C9F673CDD /* FUAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUAnimation.h; sourceTree = "<group>"; };
+		B4667D9EA1580A1C038445F594993047 /* FUStruct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUStruct.h; sourceTree = "<group>"; };
+		B489C066347B2235B8ACC9AFDF0C1C01 /* FUComicFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUComicFilter.h; sourceTree = "<group>"; };
+		B53E3B0FF0656BC7EDE823A54EE50595 /* FUFilterDefineKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUFilterDefineKey.h; sourceTree = "<group>"; };
+		B60295D337CA764C877F2CF0ABD913A4 /* Pods-eagletest2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eagletest2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7519852FDD95184AEE513B6A2333162 /* UIDevice+FURenderKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+FURenderKit.h"; sourceTree = "<group>"; };
+		B766D17EAE8E944E9B420BA69D2CA4EC /* FUScene.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUScene.h; sourceTree = "<group>"; };
+		B926CD5595925C3413150C61A497CD76 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = eagletest2/Classes/FURenderKit.framework/Info.plist; sourceTree = "<group>"; };
+		BBB739F6BBDE3AF33619BC0F21C8CE4E /* eagletest2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = eagletest2.release.xcconfig; sourceTree = "<group>"; };
+		C109EE481FA70CC170C56BB2400B3F09 /* FUAIConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUAIConfig.h; sourceTree = "<group>"; };
+		C16CDEDABEC91E1B3845912C5848CD0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C51B8C94D1AE0E948150406CB3D74B5B /* FUMakeUpColorsKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUMakeUpColorsKey.h; sourceTree = "<group>"; };
+		C7F21765D5B75FFC16DFD7E86017C69F /* FURecordEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FURecordEncoder.h; sourceTree = "<group>"; };
+		C9976938D0042FFEFF6717419FA1C81D /* eagletest2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "eagletest2-Info.plist"; sourceTree = "<group>"; };
+		C999C759D3BB2096B577F38DA4A89E8F /* Pods-eagletest2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-eagletest2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C9ABDDB99669F5E0F53134464DF24B30 /* Pods-eagletest2_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-eagletest2_Tests"; path = Pods_eagletest2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0CA8BAF4C71B17914B98CF3A799265 /* FURenderableObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FURenderableObject.h; sourceTree = "<group>"; };
+		CC6E1EAB8C0B9960B2D512D04979F849 /* FULight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FULight.h; sourceTree = "<group>"; };
+		CCAF25C1976110F0DCEDE7D6514996AE /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		CFD184BA8A9A1C0047A261858AC380B6 /* FURenderKit快速集成文档.md */ = {isa = PBXFileReference; includeInIndex = 1; name = "FURenderKit快速集成文档.md"; path = "eagletest2/Classes/FURenderKit.framework/FURenderKit快速集成文档.md"; sourceTree = "<group>"; };
+		D4DE34576D4E393AF0883AAC7DEF8894 /* FUConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUConfig.h; sourceTree = "<group>"; };
+		D6A4FA2B82610A24B687DDCFD7A68486 /* FUKeysDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUKeysDefine.h; sourceTree = "<group>"; };
+		D75D012596306A4103EF1E18E1D3FF0E /* CNamaSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CNamaSDK.h; sourceTree = "<group>"; };
+		DD820306EA3586D1D1EDAFC2CE02919F /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		DFFC052C19930E90C9D981251549B637 /* FUGLContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUGLContext.h; sourceTree = "<group>"; };
+		E0B845B2FCF189DD8028087C0B452FD1 /* FUMusicFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUMusicFilter.h; sourceTree = "<group>"; };
+		E2278369A44EE691B5CF79C0F8500773 /* FUCLIColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUCLIColor.h; sourceTree = "<group>"; };
+		EE7AD18E6D2DBD40216600E6AFB0ACEF /* FUFacepupKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUFacepupKeys.h; sourceTree = "<group>"; };
+		F124230BDC2679AB6538B57464C10983 /* eagletest2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = eagletest2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F5433CC509C801A5DA1D8A1895786343 /* FUActionRecognition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUActionRecognition.h; sourceTree = "<group>"; };
+		F9355F61DBEA080236CE2E69392BB58F /* FUBodyBeauty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUBodyBeauty.h; sourceTree = "<group>"; };
+		FA5D4AA70C85B25694A3B8149EBAC749 /* FUCameraAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUCameraAnimation.h; sourceTree = "<group>"; };
+		FBEFEDD47C6A3FE5B3C387E7AD2598FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEE603D748F8F06A19599476F4E2F1E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8E3D65B5233EC6B6E0D6047A9A9F20E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB359148A6E3AB7A16BF8FEF567E1B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6ECEE47A049979FA85E077D1D55083 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1055B8C3910A7927A1BA616319D3D032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B2594994215918EE0669B61140EDF5B /* eagletest2 */,
+				C9ABDDB99669F5E0F53134464DF24B30 /* Pods-eagletest2_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A809D26C0F97004120117BF3946C7FE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81BBACFCE1FB6B75EA89AF2AF74A4E69 /* Pods-eagletest2_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3E1AE3C59F15FAE3ECA8834B60059927 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EF83F32DF54DEFAC6930991A77340AD /* eagletest2 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4CBEA5471120376C562E169ED9DA1503 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				65B5EACE1A7478460871740B29F7C863 /* eagletest2.modulemap */,
+				95E2ECF53B00A08E07C4F06A163F4BA3 /* eagletest2-dummy.m */,
+				C9976938D0042FFEFF6717419FA1C81D /* eagletest2-Info.plist */,
+				868EBF6153E453CAAE8E18CE16C0CEE6 /* eagletest2-prefix.pch */,
+				B0F65660CFB42B7A0DD4516CDE8B1C11 /* eagletest2-umbrella.h */,
+				41DED720155800039EAA5882216ACD46 /* eagletest2.debug.xcconfig */,
+				BBB739F6BBDE3AF33619BC0F21C8CE4E /* eagletest2.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/eagletest2";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F43EDD918D039D51E0A1E0537E79C96 /* _CodeSignature */ = {
+			isa = PBXGroup;
+			children = (
+				8CE94B799134C0F6004E8B21BCE23F52 /* CodeResources */,
+			);
+			name = _CodeSignature;
+			path = eagletest2/Classes/FURenderKit.framework/_CodeSignature;
+			sourceTree = "<group>";
+		};
+		6449A6B72185E3E58D0F66B6F0BA8CAB /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CCAF25C1976110F0DCEDE7D6514996AE /* module.modulemap */,
+			);
+			name = Modules;
+			path = eagletest2/Classes/FURenderKit.framework/Modules;
+			sourceTree = "<group>";
+		};
+		6EF83F32DF54DEFAC6930991A77340AD /* eagletest2 */ = {
+			isa = PBXGroup;
+			children = (
+				6B1C2309785760E9C223F51B16DF0F91 /* FURenderKit */,
+				CFD184BA8A9A1C0047A261858AC380B6 /* FURenderKit快速集成文档.md */,
+				B926CD5595925C3413150C61A497CD76 /* Info.plist */,
+				5F43EDD918D039D51E0A1E0537E79C96 /* _CodeSignature */,
+				EF18FD51F56DC5A7C926A767DF8629A3 /* Headers */,
+				6449A6B72185E3E58D0F66B6F0BA8CAB /* Modules */,
+				CB1B0B15CA1AFBB491DB8E6D284861DD /* Pod */,
+				4CBEA5471120376C562E169ED9DA1503 /* Support Files */,
+			);
+			name = eagletest2;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		81BBACFCE1FB6B75EA89AF2AF74A4E69 /* Pods-eagletest2_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1C6F85FC07B0E96616D14E515B113B0A /* Pods-eagletest2_Tests.modulemap */,
+				5C79F1223F3CC9272FB030C60E7C2062 /* Pods-eagletest2_Tests-acknowledgements.markdown */,
+				C999C759D3BB2096B577F38DA4A89E8F /* Pods-eagletest2_Tests-acknowledgements.plist */,
+				6E4F46FC01484517B73F0F711E345618 /* Pods-eagletest2_Tests-dummy.m */,
+				19DCEC752E66731FFE386493D2EFD815 /* Pods-eagletest2_Tests-frameworks.sh */,
+				A7CBD969E3F3D81F8179401411A1A572 /* Pods-eagletest2_Tests-Info.plist */,
+				96BB167CEC718E4BF062EF1DFEC008F5 /* Pods-eagletest2_Tests-umbrella.h */,
+				B60295D337CA764C877F2CF0ABD913A4 /* Pods-eagletest2_Tests.debug.xcconfig */,
+				3D4DAE02C09EA5F8CB793E388181818F /* Pods-eagletest2_Tests.release.xcconfig */,
+			);
+			name = "Pods-eagletest2_Tests";
+			path = "Target Support Files/Pods-eagletest2_Tests";
+			sourceTree = "<group>";
+		};
+		CB1B0B15CA1AFBB491DB8E6D284861DD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F124230BDC2679AB6538B57464C10983 /* eagletest2.podspec */,
+				C16CDEDABEC91E1B3845912C5848CD0E /* LICENSE */,
+				FBEFEDD47C6A3FE5B3C387E7AD2598FA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3E1AE3C59F15FAE3ECA8834B60059927 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1055B8C3910A7927A1BA616319D3D032 /* Products */,
+				3A809D26C0F97004120117BF3946C7FE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF18FD51F56DC5A7C926A767DF8629A3 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				D75D012596306A4103EF1E18E1D3FF0E /* CNamaSDK.h */,
+				F5433CC509C801A5DA1D8A1895786343 /* FUActionRecognition.h */,
+				C109EE481FA70CC170C56BB2400B3F09 /* FUAIConfig.h */,
+				19E36BAA4A3AB20EF4B484DEA048090B /* FUAIKit.h */,
+				0F1BB224E831D3F041D6D722E6DB41AD /* FUAISegment.h */,
+				B44300956921377DDC93319C9F673CDD /* FUAnimation.h */,
+				0D7228133A5C79954B25ADB1BE04F74A /* FUAnimoji.h */,
+				8AF1E58270FA9CE209A9315FFFE2AD36 /* FUAvatar.h */,
+				243BA2240A303FE706CAD6EABE9D0907 /* FUAvatarColorKeys.h */,
+				8009BACB416EC01E00C1F2DA11E80D59 /* FUAvatarMakeup.h */,
+				529F319FE4F8D3392135A20A5EF92799 /* FUBackground.h */,
+				40CA35F3D070E6A3A132F31A2A597C62 /* FUBeauty.h */,
+				F9355F61DBEA080236CE2E69392BB58F /* FUBodyBeauty.h */,
+				9AA7F2D257489BDE7680A3E71D8BAB5D /* FUBodyBeautyDefineKeys.h */,
+				FA5D4AA70C85B25694A3B8149EBAC749 /* FUCameraAnimation.h */,
+				50F8A2677701D0DD03CEDDCF73B26E4C /* FUCaptureCamera.h */,
+				E2278369A44EE691B5CF79C0F8500773 /* FUCLIColor.h */,
+				B489C066347B2235B8ACC9AFDF0C1C01 /* FUComicFilter.h */,
+				D4DE34576D4E393AF0883AAC7DEF8894 /* FUConfig.h */,
+				B0796CBA2632EBECED1D31EB0357A27F /* FUDeformationKeys.h */,
+				A16050DDD8B52758D7F9942019C482B7 /* FUEnum.h */,
+				EE7AD18E6D2DBD40216600E6AFB0ACEF /* FUFacepupKeys.h */,
+				033ED24809634C99DD206E877D95B183 /* FUFaceRectInfo.h */,
+				0AD657C17A62CD2A465CAAFCF7C0BDBB /* FUFacialFeatures.h */,
+				B53E3B0FF0656BC7EDE823A54EE50595 /* FUFilterDefineKey.h */,
+				14F881A2F3736DE15B791A439A9363FB /* FUGesture.h */,
+				DFFC052C19930E90C9D981251549B637 /* FUGLContext.h */,
+				7B15086BA0A07667307C1B2DD5F8F935 /* FUGLDisplayView.h */,
+				70FFF9392A203B76B0B844AEC5606D4A /* FUGreenScreen.h */,
+				7C933CDDE84F40D185EC7A9EC8BBEF4F /* FUGroupAnimation.h */,
+				9BA548055C7C2453B9A920A2697AFC23 /* FUHairBeauty.h */,
+				0A2194E2E02EEFAE757F89CC81737DDB /* FUHairDefineKey.h */,
+				A7A7E1985A8CCF784EEDB472C4031DE7 /* FUImageHelper.h */,
+				259123FBF9DF30EC7474A5E9A16B9A88 /* FUInternalCameraSetting.h */,
+				9819D4C171E9986297CCEA812EE0BC70 /* FUItem.h */,
+				6C8B183793F9AE22DB61972C328FEBD5 /* FUItem+createTexture.h */,
+				D6A4FA2B82610A24B687DDCFD7A68486 /* FUKeysDefine.h */,
+				CC6E1EAB8C0B9960B2D512D04979F849 /* FULight.h */,
+				16E724D12514AE1069E088554DE33D85 /* FULightMakeup.h */,
+				979152EA091A3CF4604591E1CED69776 /* FULightMakeUpTextureKeyDefineKey.h */,
+				4FC3ACE08F7EFEF27EBAE22B5706F3C3 /* FUMakeup.h */,
+				019B0FB4AFF36C61D056D3321F99335C /* FUMakeUpChildStrengthDefineKey.h */,
+				C51B8C94D1AE0E948150406CB3D74B5B /* FUMakeUpColorsKey.h */,
+				B347456B2C7D62A42548C4CDFCA4B4E1 /* FUMakeUpTextureKey.h */,
+				07FCD3DC3A18D7516CDCD37525525B9E /* FUMakeupValueDefine.h */,
+				E0B845B2FCF189DD8028087C0B452FD1 /* FUMusicFilter.h */,
+				1FFFF4D10B832FA9E2710AEA8B4AFA0D /* FUNormalConfig.h */,
+				94F597F2CF45072FEF88AF2A6D7A39EA /* FUOvonicMap.h */,
+				42C938C7E821E5C653AB455CFCEB257A /* FUParam.h */,
+				4B86F378930EFAB9556E396B5262A638 /* FUPoster.h */,
+				17664F00959B12A36B7A92A80A6956E6 /* FUQualitySticker.h */,
+				C7F21765D5B75FFC16DFD7E86017C69F /* FURecordEncoder.h */,
+				CC0CA8BAF4C71B17914B98CF3A799265 /* FURenderableObject.h */,
+				58C7BAE622CF375D6869B50762E3F21F /* FURenderer.h */,
+				2098A484A8CC442D60C30AD9686297F7 /* FURenderIO.h */,
+				4E4F957EDE17F53DA5C418CC81A7A0A5 /* FURenderKit.h */,
+				B766D17EAE8E944E9B420BA69D2CA4EC /* FUScene.h */,
+				23333D9392A3E0E0AD20A027BBD18483 /* FUSceneCamera.h */,
+				8D2DA89D77959736113BA9FA968EAC85 /* FUSetupConfig.h */,
+				7DE07788E5CDA127C8F6415D7738C66E /* FUSticker.h */,
+				622CFB49D7E5EE6462AFB9509B3858E9 /* FUStickerContainer.h */,
+				B4667D9EA1580A1C038445F594993047 /* FUStruct.h */,
+				DD820306EA3586D1D1EDAFC2CE02919F /* metamacros.h */,
+				B7519852FDD95184AEE513B6A2333162 /* UIDevice+FURenderKit.h */,
+				551E6051226E09B15BD0E68D7E03CBC8 /* UIImage+FURenderKit.h */,
+			);
+			name = Headers;
+			path = eagletest2/Classes/FURenderKit.framework/Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		183D3FDFA91484FF12D0BA70F8373853 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A8B5297C5FB36ECFE2587BE6FB4D1C6 /* CNamaSDK.h in Headers */,
+				15069BAA0A0038BE641ED3492F1909BF /* eagletest2-umbrella.h in Headers */,
+				D069474E4455B6F5D36D57E00D4793E0 /* FUActionRecognition.h in Headers */,
+				EF697824A77DC4F94612D311C9E9DD05 /* FUAIConfig.h in Headers */,
+				B98A71516DCE6C93E787077DFF9984C9 /* FUAIKit.h in Headers */,
+				29A16B7DB4F37A7B8E63E931F105069D /* FUAISegment.h in Headers */,
+				2AE393EE53C285BE002B2D779E4A3784 /* FUAnimation.h in Headers */,
+				9E55A9B3F7D01AA051A9EFD38243C1A3 /* FUAnimoji.h in Headers */,
+				3AE3B3A8D655274DD56F0CDF514A6F25 /* FUAvatar.h in Headers */,
+				8B058DF3420C0130BAF09C30BD6C39D4 /* FUAvatarColorKeys.h in Headers */,
+				5553AF0C5E69C90C1954A87D916207EA /* FUAvatarMakeup.h in Headers */,
+				1144F86A773540628EEE34E5E1986EF7 /* FUBackground.h in Headers */,
+				3B69EE0612AB45536B20B4D4C6E02D3E /* FUBeauty.h in Headers */,
+				5D474AFCF5E8C3F50F641475C708F7E0 /* FUBodyBeauty.h in Headers */,
+				A16C6A3E53D44F33267A44DA1FF1E272 /* FUBodyBeautyDefineKeys.h in Headers */,
+				0735CB6F39576C7818D018E859CA5C03 /* FUCameraAnimation.h in Headers */,
+				832120BD221F490FD3A864DAFEE0E462 /* FUCaptureCamera.h in Headers */,
+				56E0E04CE6004EA101CF063E14E5838C /* FUCLIColor.h in Headers */,
+				1B684158C3BB8FBC38C1D6C0384C9111 /* FUComicFilter.h in Headers */,
+				2095C840A82BD44B8DE9F3BBC4F59A0A /* FUConfig.h in Headers */,
+				A07F93F5CE1B42FC13CF55655AA05C14 /* FUDeformationKeys.h in Headers */,
+				A1FA025519428AFB10CD52DBB4DF29CD /* FUEnum.h in Headers */,
+				B7320DA0DECEF99C766E630562D0E2B8 /* FUFacepupKeys.h in Headers */,
+				844F8AE543BBD571D5F0F7AF3AFCD08F /* FUFaceRectInfo.h in Headers */,
+				D7FC32B9F857C02527F3F8BCFD23F28D /* FUFacialFeatures.h in Headers */,
+				D5C4FFCF07A3948B655B503ED0009450 /* FUFilterDefineKey.h in Headers */,
+				873EAF0BBE33AA18C699ED402D7C84B4 /* FUGesture.h in Headers */,
+				E6E01E252D42E4295BF7DD06F581A098 /* FUGLContext.h in Headers */,
+				39E6C3D0CDB1934BBFC1A9F04B755672 /* FUGLDisplayView.h in Headers */,
+				D8C0DB28558D026812531DE9359CC60D /* FUGreenScreen.h in Headers */,
+				8E25FD87B291D4BB9817E34D2E24B265 /* FUGroupAnimation.h in Headers */,
+				E4BBDB8263FCDC54E7D89329238919C7 /* FUHairBeauty.h in Headers */,
+				3F3FD922803F13800F0A5C390A8D9E35 /* FUHairDefineKey.h in Headers */,
+				9EAE59FAD9F29558B1F5CA30832C04F6 /* FUImageHelper.h in Headers */,
+				303D7A34829903DA819EC8FF3BD4620B /* FUInternalCameraSetting.h in Headers */,
+				46A046C2076C9545107E12F27338F80E /* FUItem.h in Headers */,
+				08E98A9C2EAFF4C2A8A6371D64E1F5F7 /* FUItem+createTexture.h in Headers */,
+				DC2B0DEBCF4D9906679387962405CD62 /* FUKeysDefine.h in Headers */,
+				5C2BF028BBD6FCF82A1C52A8A630250A /* FULight.h in Headers */,
+				7BA650CE64B11A214A3D4149C8D1715C /* FULightMakeup.h in Headers */,
+				9A8FE18BBF272F72A3EC64A9A231BFBD /* FULightMakeUpTextureKeyDefineKey.h in Headers */,
+				9505826700D33E540B359CCD027EBD51 /* FUMakeup.h in Headers */,
+				55936367D67D4FF360ECD15CEC431C22 /* FUMakeUpChildStrengthDefineKey.h in Headers */,
+				A9D1C95927BF140BD613CC5949B18974 /* FUMakeUpColorsKey.h in Headers */,
+				5802E2D206A15201DAB99D75CBF7C4AF /* FUMakeUpTextureKey.h in Headers */,
+				7AFABAB539A748A378E11C2D4481D61A /* FUMakeupValueDefine.h in Headers */,
+				507AA14654504DA7B42BCA9043EBDBB9 /* FUMusicFilter.h in Headers */,
+				81554F29C572F3C61827018A3214FA85 /* FUNormalConfig.h in Headers */,
+				BD391024FE0ED896444CC20DB6A785DF /* FUOvonicMap.h in Headers */,
+				E71C171A18DEAE8E61BB66AABCB47C62 /* FUParam.h in Headers */,
+				450C875CBC30620C83043965F2174EB1 /* FUPoster.h in Headers */,
+				2FCB26E0F8D97D1866EDF6905EFF834A /* FUQualitySticker.h in Headers */,
+				25954EA33B85BF31916328D6D703D337 /* FURecordEncoder.h in Headers */,
+				467612FCE096F1F14F9D21CE54A712B6 /* FURenderableObject.h in Headers */,
+				C1F1A022FAB08645C8DF5651EC8E7D51 /* FURenderer.h in Headers */,
+				81C613DC628F2CFE570BA06EB98DE789 /* FURenderIO.h in Headers */,
+				53A19C7131623B4EBCA4BB7DAFD43A7B /* FURenderKit.h in Headers */,
+				A8DFF524D43C5B6537106146451E30CF /* FUScene.h in Headers */,
+				40CF98CABD1B375B3E689C2B220EBEA6 /* FUSceneCamera.h in Headers */,
+				B2922624E35FC1192ECA121691AD45BD /* FUSetupConfig.h in Headers */,
+				9E75D28D30ABA035F3E307B3291C2ABA /* FUSticker.h in Headers */,
+				4647DB4F048C12E23F89EC9EFABE99B6 /* FUStickerContainer.h in Headers */,
+				6FDABB6B33B27E21880247E6DEC21BBE /* FUStruct.h in Headers */,
+				E7814F96D139878CEA2591B6C6FD8BED /* metamacros.h in Headers */,
+				0A005D982C15AC4053C322452B694C7E /* UIDevice+FURenderKit.h in Headers */,
+				9B699140AB20BE8F40DE3D31DBDC2AE0 /* UIImage+FURenderKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F2C469EB18D38B8BF429CCB82FB1D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642DE795B93B607285E46F4E3263CD0C /* Pods-eagletest2_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1513B6F90916866DDC2CD30D37FBB45B /* eagletest2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F28AA4A698C4BF1CCEB1D25E0CB5FC /* Build configuration list for PBXNativeTarget "eagletest2" */;
+			buildPhases = (
+				183D3FDFA91484FF12D0BA70F8373853 /* Headers */,
+				61E2F97ACB097B9E4738AEFB912CC775 /* Sources */,
+				BEE603D748F8F06A19599476F4E2F1E4 /* Frameworks */,
+				A14133A92973CC9E1E233B12F7945F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eagletest2;
+			productName = eagletest2;
+			productReference = 9B2594994215918EE0669B61140EDF5B /* eagletest2 */;
+			productType = "com.apple.product-type.framework";
+		};
+		44643F4F92B941C231E22CEA8563B005 /* Pods-eagletest2_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D24DA549A9416BB80AB78EE5B20FF44 /* Build configuration list for PBXNativeTarget "Pods-eagletest2_Tests" */;
+			buildPhases = (
+				B0F2C469EB18D38B8BF429CCB82FB1D2 /* Headers */,
+				08411E3A5974C6012C9EFDB552AC689F /* Sources */,
+				FFB359148A6E3AB7A16BF8FEF567E1B5 /* Frameworks */,
+				A777122B71944B8D92B1229801457E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD69673FF1845AF8E4895C6B66D7D769 /* PBXTargetDependency */,
+			);
+			name = "Pods-eagletest2_Tests";
+			productName = Pods_eagletest2_Tests;
+			productReference = C9ABDDB99669F5E0F53134464DF24B30 /* Pods-eagletest2_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1055B8C3910A7927A1BA616319D3D032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1513B6F90916866DDC2CD30D37FBB45B /* eagletest2 */,
+				44643F4F92B941C231E22CEA8563B005 /* Pods-eagletest2_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A14133A92973CC9E1E233B12F7945F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A777122B71944B8D92B1229801457E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08411E3A5974C6012C9EFDB552AC689F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3DEF34522C941B17EE6DE0476A6CF1 /* Pods-eagletest2_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E2F97ACB097B9E4738AEFB912CC775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64E2D4773EA5827F451843DD0A1C8FF /* CodeResources in Sources */,
+				A6ECC34E3060F3B0C822235DF82BC59B /* eagletest2-dummy.m in Sources */,
+				C98907245F2FA5143BED1B16A0BF07E8 /* FURenderKit in Sources */,
+				119220B1F5203E098C9E4779E0CA190A /* FURenderKit快速集成文档.md in Sources */,
+				1C3A6EC40C34679AA18C9B2C1FCBCAE2 /* Info.plist in Sources */,
+				23C869364494A0858A8E530107893F1E /* module.modulemap in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD69673FF1845AF8E4895C6B66D7D769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = eagletest2;
+			target = 1513B6F90916866DDC2CD30D37FBB45B /* eagletest2 */;
+			targetProxy = 012BB77BD02ED730D91FDAFB6F5EB1E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02E9779A8DBA6EF03172AE85A58D5A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D4DAE02C09EA5F8CB793E388181818F /* Pods-eagletest2_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-eagletest2_Tests/Pods-eagletest2_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-eagletest2_Tests/Pods-eagletest2_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4889CC9A5DEA8EB385D33E6319B861A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBB739F6BBDE3AF33619BC0F21C8CE4E /* eagletest2.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/eagletest2/eagletest2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/eagletest2/eagletest2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/eagletest2/eagletest2.modulemap";
+				PRODUCT_MODULE_NAME = eagletest2;
+				PRODUCT_NAME = eagletest2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8B24DBFD77CD74CA2D9F7B94825D8E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41DED720155800039EAA5882216ACD46 /* eagletest2.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/eagletest2/eagletest2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/eagletest2/eagletest2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/eagletest2/eagletest2.modulemap";
+				PRODUCT_MODULE_NAME = eagletest2;
+				PRODUCT_NAME = eagletest2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5C629E6C1FE601AB940190A4E3B97B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B60295D337CA764C877F2CF0ABD913A4 /* Pods-eagletest2_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-eagletest2_Tests/Pods-eagletest2_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-eagletest2_Tests/Pods-eagletest2_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D24DA549A9416BB80AB78EE5B20FF44 /* Build configuration list for PBXNativeTarget "Pods-eagletest2_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5C629E6C1FE601AB940190A4E3B97B7 /* Debug */,
+				02E9779A8DBA6EF03172AE85A58D5A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2F28AA4A698C4BF1CCEB1D25E0CB5FC /* Build configuration list for PBXNativeTarget "eagletest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B24DBFD77CD74CA2D9F7B94825D8E41 /* Debug */,
+				4889CC9A5DEA8EB385D33E6319B861A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
