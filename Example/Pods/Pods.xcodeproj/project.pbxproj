@@ -128,7 +128,7 @@
 		5C79F1223F3CC9272FB030C60E7C2062 /* Pods-eagletest2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-eagletest2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		622CFB49D7E5EE6462AFB9509B3858E9 /* FUStickerContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUStickerContainer.h; sourceTree = "<group>"; };
 		65B5EACE1A7478460871740B29F7C863 /* eagletest2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = eagletest2.modulemap; sourceTree = "<group>"; };
-		6B1C2309785760E9C223F51B16DF0F91 /* FURenderKit */ = {isa = PBXFileReference; includeInIndex = 1; name = FURenderKit; path = eagletest2/Classes/FURenderKit.framework/FURenderKit; sourceTree = "<group>"; };
+		6B1C2309785760E9C223F51B16DF0F91 /* FURenderKit */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "compiled.mach-o.dylib"; name = FURenderKit; path = eagletest2/Classes/FURenderKit.framework/FURenderKit; sourceTree = "<group>"; };
 		6C8B183793F9AE22DB61972C328FEBD5 /* FUItem+createTexture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FUItem+createTexture.h"; sourceTree = "<group>"; };
 		6E4F46FC01484517B73F0F711E345618 /* Pods-eagletest2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-eagletest2_Tests-dummy.m"; sourceTree = "<group>"; };
 		70FFF9392A203B76B0B844AEC5606D4A /* FUGreenScreen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUGreenScreen.h; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 		8009BACB416EC01E00C1F2DA11E80D59 /* FUAvatarMakeup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUAvatarMakeup.h; sourceTree = "<group>"; };
 		868EBF6153E453CAAE8E18CE16C0CEE6 /* eagletest2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "eagletest2-prefix.pch"; sourceTree = "<group>"; };
 		8AF1E58270FA9CE209A9315FFFE2AD36 /* FUAvatar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUAvatar.h; sourceTree = "<group>"; };
-		8CE94B799134C0F6004E8B21BCE23F52 /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeResources; sourceTree = "<group>"; };
+		8CE94B799134C0F6004E8B21BCE23F52 /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = CodeResources; sourceTree = "<group>"; };
 		8D2DA89D77959736113BA9FA968EAC85 /* FUSetupConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUSetupConfig.h; sourceTree = "<group>"; };
 		94F597F2CF45072FEF88AF2A6D7A39EA /* FUOvonicMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUOvonicMap.h; sourceTree = "<group>"; };
 		95E2ECF53B00A08E07C4F06A163F4BA3 /* eagletest2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "eagletest2-dummy.m"; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 		9AA7F2D257489BDE7680A3E71D8BAB5D /* FUBodyBeautyDefineKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUBodyBeautyDefineKeys.h; sourceTree = "<group>"; };
 		9B2594994215918EE0669B61140EDF5B /* eagletest2 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = eagletest2; path = eagletest2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA548055C7C2453B9A920A2697AFC23 /* FUHairBeauty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUHairBeauty.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A16050DDD8B52758D7F9942019C482B7 /* FUEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUEnum.h; sourceTree = "<group>"; };
 		A7A7E1985A8CCF784EEDB472C4031DE7 /* FUImageHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUImageHelper.h; sourceTree = "<group>"; };
 		A7CBD969E3F3D81F8179401411A1A572 /* Pods-eagletest2_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-eagletest2_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -166,7 +166,7 @@
 		B926CD5595925C3413150C61A497CD76 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = eagletest2/Classes/FURenderKit.framework/Info.plist; sourceTree = "<group>"; };
 		BBB739F6BBDE3AF33619BC0F21C8CE4E /* eagletest2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = eagletest2.release.xcconfig; sourceTree = "<group>"; };
 		C109EE481FA70CC170C56BB2400B3F09 /* FUAIConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUAIConfig.h; sourceTree = "<group>"; };
-		C16CDEDABEC91E1B3845912C5848CD0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C16CDEDABEC91E1B3845912C5848CD0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C51B8C94D1AE0E948150406CB3D74B5B /* FUMakeUpColorsKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUMakeUpColorsKey.h; sourceTree = "<group>"; };
 		C7F21765D5B75FFC16DFD7E86017C69F /* FURecordEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FURecordEncoder.h; sourceTree = "<group>"; };
 		C9976938D0042FFEFF6717419FA1C81D /* eagletest2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "eagletest2-Info.plist"; sourceTree = "<group>"; };
@@ -175,7 +175,7 @@
 		CC0CA8BAF4C71B17914B98CF3A799265 /* FURenderableObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FURenderableObject.h; sourceTree = "<group>"; };
 		CC6E1EAB8C0B9960B2D512D04979F849 /* FULight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FULight.h; sourceTree = "<group>"; };
 		CCAF25C1976110F0DCEDE7D6514996AE /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
-		CFD184BA8A9A1C0047A261858AC380B6 /* FURenderKit快速集成文档.md */ = {isa = PBXFileReference; includeInIndex = 1; name = "FURenderKit快速集成文档.md"; path = "eagletest2/Classes/FURenderKit.framework/FURenderKit快速集成文档.md"; sourceTree = "<group>"; };
+		CFD184BA8A9A1C0047A261858AC380B6 /* FURenderKit快速集成文档.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = "FURenderKit快速集成文档.md"; path = "eagletest2/Classes/FURenderKit.framework/FURenderKit快速集成文档.md"; sourceTree = "<group>"; };
 		D4DE34576D4E393AF0883AAC7DEF8894 /* FUConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUConfig.h; sourceTree = "<group>"; };
 		D6A4FA2B82610A24B687DDCFD7A68486 /* FUKeysDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUKeysDefine.h; sourceTree = "<group>"; };
 		D75D012596306A4103EF1E18E1D3FF0E /* CNamaSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CNamaSDK.h; sourceTree = "<group>"; };
@@ -184,11 +184,11 @@
 		E0B845B2FCF189DD8028087C0B452FD1 /* FUMusicFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUMusicFilter.h; sourceTree = "<group>"; };
 		E2278369A44EE691B5CF79C0F8500773 /* FUCLIColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUCLIColor.h; sourceTree = "<group>"; };
 		EE7AD18E6D2DBD40216600E6AFB0ACEF /* FUFacepupKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUFacepupKeys.h; sourceTree = "<group>"; };
-		F124230BDC2679AB6538B57464C10983 /* eagletest2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = eagletest2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F124230BDC2679AB6538B57464C10983 /* eagletest2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = eagletest2.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		F5433CC509C801A5DA1D8A1895786343 /* FUActionRecognition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUActionRecognition.h; sourceTree = "<group>"; };
 		F9355F61DBEA080236CE2E69392BB58F /* FUBodyBeauty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUBodyBeauty.h; sourceTree = "<group>"; };
 		FA5D4AA70C85B25694A3B8149EBAC749 /* FUCameraAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUCameraAnimation.h; sourceTree = "<group>"; };
-		FBEFEDD47C6A3FE5B3C387E7AD2598FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FBEFEDD47C6A3FE5B3C387E7AD2598FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -703,8 +703,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
